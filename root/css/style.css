@@ -1,0 +1,149 @@
+/* Style du container de la table au complet*/
+
+table{
+    margin : auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+
+/* Table header style */
+
+th{
+    text-align: left;
+    border: none;
+    background-color: white;
+    font-family: Roboto ;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 0px 8px 0px;
+}
+
+th:hover{
+    background-color: white;
+
+}
+
+
+/* Table data style */
+td{
+    font-size: 14px;
+    font-family: Roboto;
+
+    text-align: left;
+    
+    border-top : 2px solid #ddd;
+    padding: 8px 0px 8px 0px;
+}
+
+/* Table row style */
+
+tr{
+    border-bottom : 2px solid #ddd;
+    transition: 500ms;
+}
+
+tr:hover{
+    background-color: rgba(101, 101, 101, 0.234);
+
+}
+
+
+/* Style divers */
+
+.main_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.div_addRequest{
+    text-align: right;
+}
+
+
+.btn_addRequest{
+    font-family: Roboto;
+    font-size: 14px;
+    color: green;
+    
+    border : none;
+    
+    cursor: pointer;
+    
+    background-color: transparent;
+    transition: 300ms;
+}
+
+.btn_addRequest:hover{
+    color: rgb(157, 226, 148);
+
+}
+
+.police{
+    font-family: Roboto;
+    font-size: 14px;
+
+}
+
+.colorVar1{
+    background-color : #f9f9f9;
+
+}
+
+.colorVar2{
+    background-color : white;
+
+}
+
+.title{
+    font-family: Roboto;
+    font-size: 20px;
+    margin-top: 75px;
+
+}
+
+.checkBox{
+    cursor: pointer;
+
+}
+
+.form_addRequest{
+    display: none;
+
+    background-color: white;
+    border : 1px solid rgb(105, 105, 105);
+    border-radius: 5px 5px;
+    margin: auto;
+    width: 35%;
+    
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: -25;
+
+}
+
+
+
+.site{
+    position: relative;
+}
+
+.div_site_Back{
+    display: none;
+   
+    width: 100%;
+    background-color: rgba(58, 58, 58, 0.435);
+    
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right:0;
+    top : 0;
+    bottom: 0;
+
+}
+
